@@ -1,0 +1,10 @@
+<h1> {{ page }}</h1>
+<div ng-show="signined"><b>Role: </b>{{ user.role }}</div>
+<div ng-hide="signined">
+    <input type="text" ng-model="user.username"/>
+    <input type="password" ng-model="user.password"/>
+    <button ng-click="signin()">Sing in</button>
+</div>
+<div ng-show="signined">
+    <a href="#/admin">Go to Admin</a>
+</div>

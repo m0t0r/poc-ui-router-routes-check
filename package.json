@@ -1,0 +1,15 @@
+{
+  "name": "ui-router-auth",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "author": "m0t0r",
+  "license": "MIT",
+  "devDependencies": {
+    "karma": "^0.12.23",
+    "karma-chrome-launcher": "^0.1.4",
+    "karma-jasmine": "^0.1.5"
+  }
+}
