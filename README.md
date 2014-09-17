@@ -4,6 +4,14 @@ poc-ui-router-routes-check
 Simple POC how to check routes with ui-router
 
 
+## Install
+
+Run
+
+* npm install
+* bower install
+
+
 In order to quickly check just run:
 
 ```
